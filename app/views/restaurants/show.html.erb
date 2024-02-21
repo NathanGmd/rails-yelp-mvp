@@ -3,4 +3,5 @@
   <div>adresse : <%= @restaurant.address %></div>
   <div>numero de telephone : <%= @restaurant.phone_number %></div>
   <div>categorie : <%= @restaurant.category %></div>
+  <div><%= link_to "+ ajouter un commentaire", new_restaurant_review_path(@restaurant) %></div>
 </div>
